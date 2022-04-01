@@ -170,7 +170,7 @@ public class BinaryTree<T> implements BinaryTreeInterface<T> {
      * prints (using post-order traversal) all nodes in the "whole" tree */
     public void postorderTraverse_callBinaryNodeMethod() {
         // TODO
-
+        postorderTraverse_BinaryNodeMethod(this.root);
     }
 
     /** -------------------------------------------------------------------- */
