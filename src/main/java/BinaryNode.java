@@ -103,7 +103,6 @@ class BinaryNode<T> {
      * prints (using post-order traversal) all nodes of the subtree rooted at "this" node */
     public void postorderTraverse_binaryNodeMethod()
     {
-        // TODO: Task 1
         if (leftChild != null)  // if node has left child
             leftChild.postorderTraverse_binaryNodeMethod(); // then call post order traversal on left child
         if (rightChild != null)  // if node has right child
