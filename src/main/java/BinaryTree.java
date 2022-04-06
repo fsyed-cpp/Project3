@@ -68,7 +68,7 @@ public class BinaryTree<T> implements BinaryTreeInterface<T> {
 
     /**
      * Check if the tree exists
-     * @return
+     * @return a boolean if the tree is Empty or not
      */
     public boolean isEmpty() {
         return root == null;
@@ -128,7 +128,7 @@ public class BinaryTree<T> implements BinaryTreeInterface<T> {
     /** Task 1: Implement the 4 methods
      *     . In BinaryTree.java
      *          1. public void postorderTraverse();
-     *          2. private void postorderTraverse(BinaryNode<T> node)
+     *          2. private void postorderTraverse(BinaryNode node)
      *          3. public void postorderTraverse_callBinaryNodeMethod()
      *     . In BinaryNode.java
      *          4. public void postorderTraverse_binaryNodeMethod() */
@@ -162,7 +162,7 @@ public class BinaryTree<T> implements BinaryTreeInterface<T> {
      *     . In BinaryNode.java
      *          2. public int getHeight_binaryNodeMethod()*/
 
-    /** calls getHeight(BinaryNode<T> node)
+    /** calls getHeight(BinaryNode node)
      @return  The height of the "whole" tree */
     public int getHeight() {
         return getHeight(root);
@@ -192,7 +192,7 @@ public class BinaryTree<T> implements BinaryTreeInterface<T> {
      *          1. public int getNumberOfNodes()
      *          2. private int getNumberOfNodes(BinaryNode<T> node)*/
 
-    /** calls getNumberOfNodes(BinaryNode<T> node)
+    /** calls getNumberOfNodes(BinaryNode node)
      @return  The number of nodes in the "whole" tree */
     public int getNumberOfNodes() {
         return getNumberOfNodes(this.root);

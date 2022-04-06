@@ -84,6 +84,10 @@ public class DriverBT {
 
     /**-------------------------------------------------------------------- */
     /**Task 4: Create a tree case as shown in assignment 3*/
+    /**
+     * Creates a second tree
+     * @param tree A second tree using type String
+     */
     public static void createTree2(BinaryTree<String> tree) {
         BinaryTree<String> xTree = new BinaryTree<>("X");
         BinaryTree<String> yTree = new BinaryTree<>("Y");
